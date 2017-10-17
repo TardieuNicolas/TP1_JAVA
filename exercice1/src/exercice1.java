@@ -6,7 +6,7 @@ import java.io.IOException;
 public class exercice1 {
     public static void main(String[] args){
 
-        File file = new File("/C:/Users/trdni/Documents/test.txt");
+        File file = new File("/C:/Users/trdni/Documents/test.txt"); //le chemin dois etre modifié et pointer sois usr un fichier ou un dossier
 
         System.out.println("Chemin absolu du fichier :" + file.getAbsolutePath());
         System.out.println("Nom du fichier : " + file.getName());

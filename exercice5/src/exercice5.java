@@ -6,8 +6,10 @@ public class exercice5 {
         FileOutputStream write = null;
 
         try{
-            read = new FileInputStream(new File("/C:/Users/trdni/Documents/Simple.jpg"));
-            write = new FileOutputStream(new File("/C:/Users/trdni/Documents/SimpleCopy.jpg"));
+            read = new FileInputStream(new File("/C:/Users/trdni/Documents/Simple.jpg")); //le chemin dois etre modifié et pointer sur le fichier a copier
+            write = new FileOutputStream(new File("/C:/Users/trdni/Documents/SimpleCopy.jpg")); // ici le chemin dois etre modifié et pointer ou le fichier sera copier (avec le nom de notre nouveau fichier)
+
+            //On va s'interresser au traitement par Bytes
             byte[] buffer = new byte[8];
             int i = 0;
 
